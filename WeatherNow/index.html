@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherNow</title>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <div id="search-container" class="centered">
+    <h1 id="title">WeatherNow</h1>
+    <h2 id="tagline">"Accurate, real-time weather insights."</h2>
+    <h1 id="headline">Enter the city name you want to search weather for</h1>
+    <input type="text" id="city" placeholder="City Name" />
+    <button id="searchBtn">Search</button>
+  </div>
+  
+  <div class="weather-container">
+    
+    <div class="today-weather">
+      <div class="left">
+        <img id="today-icon" src="" alt="Weather Icon">
+      </div>
+      <div class="right">
+        <h2 id="city-name">City Name</h2>
+        <p id="date">Date: </p>
+        <p id="temperature">Temperature: </p>
+        <p id="description">Description: </p>
+        <p id="humidity">Humidity: </p>
+        <p id="wind-speed">Wind Speed: </p>
+      </div>
+    </div>
+
+    
+    <div class="forecast">
+      <div class="day">
+        <h3 class="day-name"></h3>
+        <img class="day-icon" src="" alt="Weather Icon">
+        <p class="day-temp">Temp: </p>
+        <p class="day-desc">Sky: </p>
+      </div>
+      <div class="day">
+        <h3 class="day-name"></h3>
+        <img class="day-icon" src="" alt="Weather Icon">
+        <p class="day-temp">Temp: </p>
+        <p class="day-desc">Sky: </p>
+      </div>
+      <div class="day">
+        <h3 class="day-name"></h3>
+        <img class="day-icon" src="" alt="Weather Icon">
+        <p class="day-temp">Temp: </p>
+        <p class="day-desc">Sky: </p>
+      </div>
+      <div class="day">
+        <h3 class="day-name"></h3>
+        <img class="day-icon" src="" alt="Weather Icon">
+        <p class="day-temp">Temp: </p>
+        <p class="day-desc">Sky: </p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <h4 class="copyright">© 2024 WeatherNow. All rights reserved to Sukhpreet Singh.</h4>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
